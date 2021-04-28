@@ -7,12 +7,13 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class GetExample {
+public class GetExampleSync {
 
 	// 先把springbootdemo跑起来
 	// http://127.0.0.1:8080/springbootdemo/employee/select/1
 
 	public static void main(String[] args) {
+		// 同步get请求示例
 		OkHttpClient client = new OkHttpClient();
 
 		String url = "http://127.0.0.1:8080/springbootdemo/employee/select/1";
