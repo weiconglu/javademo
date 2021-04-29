@@ -11,6 +11,12 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+/**
+ * 上传文件示例
+ * 
+ * @author founder3829
+ *
+ */
 public class PostFileExample {
 
 	public static void main(String[] args) {
