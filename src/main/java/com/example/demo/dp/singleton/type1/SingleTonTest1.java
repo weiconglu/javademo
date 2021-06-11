@@ -6,6 +6,7 @@ public class SingleTonTest1 {
 		Singleton singleton2 = Singleton.getInstance();
 		System.out.println(singleton1);
 		System.out.println(singleton2);
+		System.out.println(singleton1.equals(singleton2));
 	}
 }
 
